@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding-top: 200px;
+}
+
+button,
+a.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.btn__yellow {
+  background-color: #febe01;
+  color: #332200;
+}
+
+#title__page {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #111;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.veiculo {
+  background-color: #111;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.veiculo+.veiculo {
+  margin-top: 20px;
+}
+
+.veiculo h3 {
+  color: #fff;
+}
+
+.veiculo h3,
+.veiculo p {
+  margin-bottom: 5px;
+}
+
+.veiculo p {
+  color: #b2b2b2;
+}
+
+.veiculo span {
+  color: #febe01;
+  font-weight: bold;
+}
